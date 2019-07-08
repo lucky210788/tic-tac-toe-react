@@ -1,0 +1,12 @@
+.field-wrap{
+    padding: 15px;
+    text-align: center;
+    width: 105px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.text-field{
+    text-align: center;
+}
