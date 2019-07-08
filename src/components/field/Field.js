@@ -22,8 +22,7 @@ export default class Field extends Component {
     }
 
     handleSetValue = (index) => {
-        let values = this.state.values;
-        let isX = this.state.isX;
+        let {values, isX} = this.state;
 
         isX ? values[index] = 'X' : values[index] = 'O';
         isX = !isX;
