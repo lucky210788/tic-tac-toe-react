@@ -6,7 +6,8 @@ function Cell({valueCell, handleSetValue}) {
         <button
         type="button"
         className="cell"
-        onClick={handleSetValue}>
+        onClick={handleSetValue}
+        disabled={valueCell ? true : false}>
             {valueCell}
         </button>
     );

@@ -1,0 +1,12 @@
+.App{
+    text-align: center;
+}
+
+.App h1{
+    margin-bottom: 0;
+    font-size: 45px;
+}
+
+.text-upper{
+    text-transform: uppercase;
+}
